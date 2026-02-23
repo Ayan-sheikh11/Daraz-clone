@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daraz clone with Tailwind </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./img/favicon.png">
+</head>
+
+<body>
+
+    <nav class="h-28 bg-orange-500   ">
+
+        <div>
+            <ul class="text-white text-sm flex justify-end gap-5 mr-16 ">
+                <li class="cursor-pointer">SAVE MORE ON APP</li>
+                <li class="cursor-pointer">SELL ON DARAZ</li>
+                <li class="cursor-pointer">HELP & SUPPORT</li>
+                <li class="cursor-pointer">LOGIN</li>
+                <li class="cursor-pointer">SIGN UP</li>
+                <li class="cursor-pointer">زبان تبدیل کریں</li>
+            </ul>
+        </div>
+
+        <div class="flex items-center pt-4 gap-20 ">
+            <div class="w-32 ml-32">
+                <img src="./img/darazlogo.png" alt="" class="w-full cursor-pointer">
+            </div>
+            <div class="flex-1 relative ">
+                <input type="text" class="w-full h-12 focus:outline-none p-4 text-sm" placeholder="Search in Daraz">
+                <i
+                    class="fa-solid fa-magnifying-glass cursor-pointer bg-orange-100 absolute right-0 top-0 text-orange-500 h-12 w-12 flex   items-center justify-center text-xl"></i>
+
+            </div>
+            <div class="w-72">
+                <i class="fa-solid fa-cart-shopping text-white text-2xl cursor-pointer flex justify-start"></i>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <main class="bg-gray-100 px-2 md:px-8 lg:px28 sm:px-4 pb-10">
+
+
+
+        <div class="flex mb-10 ">
+            <div class="w-full">
+                <img src="./img/banner.avif" alt="" class="cursor-pointer w-full    ">
+            </div>
+            <div  class="md:hidden sm:hidden  hidden lg:block">
+                <img src="./img/tryDarazApp.png" alt="" class="h-auto">
+            </div>
+        </div>
+
+
+
+        <span class="text-2xl "> Flash Sale</span>
+
+
+
+        <div class="bg-white  mt-5    ">
+
+
+            <div class=" ">
+
+                <div class="border-b border-gray-300 flex  justify-between items-center px-4">
+                    <span class="text-orange-500">
+                        On Sell Now
+                    </span>
+                    <button class=" text-orange-500 border border-orange-500  flex items-center p-2 m-3 font-semibold">
+                        SHOW ALL PRODUCTS
+                    </button>
+                </div>
+
+
+                <div class=" grid lg:grid-cols-6 gap-5  mt-3 md:grid-cols-4 sm:grid-cols-3  grid-cols-2">
+
+                    <div class="hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)]  cursor-pointer ">
+                        <img src="./img/fastfood.avif" alt="" class="w-full">
+                        <div class="mt-3 p-2">
+                            <span class="text-sm">50 Pcs Air Fryer <br> Disposable Baking Paper...</span>
+
+                            <span class="text-orange-500 text-xl ">Rs.248</span> <br>
+                            <span class="text-xs "><del class="text-gray-500"> Rs.599</del>-59%</span>
+                        </div>
+                    </div>
+
+                    <div class="hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                        <img src="./img/olpers.avif" alt="" class="w-full">
+                        <div class="mt-3 p-2">
+                            <span class="text-sm">50 Pcs Air Fryer <br> Disposable Baking Paper...</span>
+
+                            <span class="text-orange-500 text-xl ">Rs.248</span> <br>
+                            <span class="text-xs "><del class="text-gray-500"> Rs.599</del>-59%</span>
+                        </div>
+                    </div>
+
+                    <div class="hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)]  cursor-pointer">
+                        <img src="./img/aamchoor.avif" alt="" class="w-full">
+                        <div class="mt-3 p-2">
+                            <span class="text-sm">50 Pcs Air Fryer <br> Disposable Baking Paper...</span>
+
+                            <span class="text-orange-500 text-xl ">Rs.248</span> <br>
+                            <span class="text-xs "><del class="text-gray-500"> Rs.599</del>-59%</span>
+                        </div>
+                    </div>
+
+                    <div class="hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)]  cursor-pointer">
+                        <img src="./img/machine.avif" alt="" class="w-full">
+                        <div class="mt-3 p-2">
+                            <span class="text-sm">50 Pcs Air Fryer <br> Disposable Baking Paper...</span>
+
+                            <span class="text-orange-500 text-xl ">Rs.248</span> <br>
+                            <span class="text-xs "><del class="text-gray-500"> Rs.599</del>-59%</span>
+                        </div>
+                    </div>
+
+                    <div class="hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                        <div class="h-[204px]">
+                            <img src="./img/sticks.avif" alt="" class="w-full ">
+                        </div>
+                        <div class=" p-2 pt-0">
+                            <span class="text-sm">50 Pcs Air Fryer <br> Disposable Baking Paper...</span>
+
+                            <span class="text-orange-500 text-xl ">Rs.248</span> <br>
+                            <span class="text-xs "><del class="text-gray-500"> Rs.599</del>-59%</span>
+                        </div>
+                    </div>
+                    <div class="hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)]  cursor-pointer">
+                        <img src="./img/mobile.avif" alt="" class="">
+                        <div class="mt-3 p-2">
+                            <span class="text-sm">50 Pcs Air Fryer <br> Disposable Baking Paper...</span>
+
+                            <span class="text-orange-500 text-xl ">Rs.248</span> <br>
+                            <span class="text-xs "><del class="text-gray-500"> Rs.599</del>-59%</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <h1 class="text-2xl py-10">Categories</h1>
+
+
+
+
+        <div class="bg-white border border-white grid grid-cols-2 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3">
+            <div
+                class="p-8 w-38 border-r-2 flex flex-col items-center border-b-2 border-gray-300 hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/anklets.avif" alt="" class="">
+                <p class="ml-2 flex items-center">Anklets</p>
+            </div>
+            <div
+                class="p-8 w-38 border-r-2 flex flex-col items-center border-b-2 border-gray-300  hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/sport.avif" alt="" class="">
+                <p class="ml-2 flex items-center">Bags</p>
+            </div>
+
+            <div
+                class="p-9 w-38 border-r-2 sm:border-b-2 flex flex-col items-center border-b-2 sm:border-r-0  border-gray-300  hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <div class="h-18"><img src="./img/print.avif" alt="" class="h-32"></div>
+                <p class="ml-2 flex items-center">prints</p>
+            </div>
+            <div
+                class="p-8 w-38  border-b-2    flex flex-col items-center border-r-2 md:border-r-0 border-gray-300  hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/pasta.avif" alt="" class="">
+                <p class="ml-2 flex items-center">Pizza Cutter</p>
+            </div>
+            <div
+                class="p-8 w-38 border-r-2 flex flex-col items-center border-b-2 border-gray-300  hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/simtools.avif" alt="" class="">
+                <p class="ml-2 flex items-center">sim cover</p>
+            </div>
+            <div
+                class="p-8 w-38  flex flex-col items-center border-b-2 md:border-r-2 border-gray-300  hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/screenprotextors.avif" alt="" class="">
+                <p class="ml-2 flex items-center">Mobile protector</p>
+            </div>
+            <div
+                class="p-8 w-38 border-r-2 border-b-2 flex flex-col items-center  border-gray-300  hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/casserole.avif" alt="" class="">
+                <p class="ml-2 flex items-center">pot</p>
+            </div>
+            <div
+                class="p-8 w-38 border-r-2 md:border-r-0 border-b-2 flex-col items-center  border-gray-300  hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/mobile.avif" alt="" class="">
+                <p class="ml-2 flex items-center">MObile phones</p>
+            </div>
+            <div
+                class="p-8 w-38 border-r-2 sm:border-b-2 sm:border-r-0 flex flex-col items-center  border-gray-300 hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/hoodies.avif" alt="" class="h-32">
+                <p class="ml-2 flex items-center">Hodies</p>
+            </div>
+            <div
+                class="p-8 w-38 border-r-2 flex flex-col items-center  border-gray-300 hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] ">
+                <img src="./img/toyboxes.avif" alt="" class="">
+                <p class="ml-2 flex items-center">bowl</p>
+            </div>
+            <div
+                class="p-8 w-38 border-r-2 flex flex-col items-center  border-gray-300  hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/dog.avif" alt="" class="">
+                <p class="ml-2 flex items-center">Brush</p>
+            </div>
+            <div
+                class="p-8 w-38  flex flex-col items-center  border-gray-300 hover:shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] cursor-pointer">
+                <img src="./img/fixture.avif" alt="" class="">
+                <p class="ml-2 flex items-center">nlka</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="m-16 w-full pl-52"><button class="text-blue-400 text-center border border-blue-500 px-40 py-2"> LOAD
+                MORE</button></div>
+
+
+        <div class="grid grid-cols-4">
+            <div>
+                <h2 class="font-semibold text-indigo-950">Customer Care</h2>
+                <ul class="text-indigo-950 text-xs">
+                    <li class="cursor-pointer no-underline hover:underline">Help Center</li>
+                    <li class="cursor-pointer no-underline hover:underline">How to Buy</li>
+                    <li class="cursor-pointer no-underline hover:underline">Corporate & Bulk Purchasing</li>
+                    <li class="cursor-pointer no-underline hover:underline">Returns & Refunds</li>
+                    <li class="cursor-pointer no-underline hover:underline">Daraz Shop</li>
+                    <li class="cursor-pointer no-underline hover:underline">Contact Us</li>
+                    <li class="cursor-pointer no-underline hover:underline">Purchase Protection</li>
+                    <li class="cursor-pointer no-underline hover:underline">Daraz Pick up Points</li>
+
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-semibold text-indigo-950">Daraz</h2>
+                <ul class="text-xs text-indigo-950">
+                    <li class="no-underline hover:underline"><a href="#">About Us</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Digital Payments</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Daraz Donates</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Daraz Blog</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Terms & Conditions</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Privacy Policy</a></li>
+                    <li class="no-underline hover:underline">NTN Number : 4012118-6</li>
+                    <li class="no-underline hover:underline">STRN Number : 1700401211818</li>
+                    <li class="no-underline hover:underline"><a href="#">Online Shopping App</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Online Grocery Shopping</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Daraz Exclusive</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Daraz University</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Sell on Daraz</a></li>
+                    <li class="no-underline hover:underline"><a href="#">Join Daraz Affiliate Program</a></li>
+                </ul>
+            </div>
+
+            <div class="flex gap-5 ">
+                <div>
+                    <img src="./img/happyshoping.png" alt="">
+                </div>
+                <div>
+                    <p class="text-orange-500 text-xl">Happy Shopping</p>
+                    <p class="text-indigo-900 text-sm">Download App</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex gap-5">
+                    <img src="./img/App store.png" alt="">
+                    <img src="./img/google.png" alt="">
+                </div>
+                <img src="./img/appgallery.png" alt="" class="mt-5">
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <div class="px-28 py-10">
+        <div class="flex gap-48">
+            <div>
+                <span>Payment Method</span>
+
+                <div class="flex gap-2 mt-6">
+                    <span class="w-10 "><img src="./img/cashondelivery.png" alt=""></span>
+                    <span class="w-10 "><img src="./img/visa.png" alt=""></span>
+                    <span class="w-10 "><img src="./img/easypaisa.png" alt=""></span>
+                    <span class="w-10 "><img src="./img/darazwallet.png" alt=""></span>
+                </div>
+                <div class="flex gap-2 mt-3">
+                    <span class="w-10 "><img src="./img/jazz.png" alt=""></span>
+
+                    <span class="w-10 "><img src="./img/HBL.png" alt=""></span>
+                </div>
+            </div>
+            <div>
+                <span> Verified by</span>
+                <img src="./img/pci.png" alt="" class="mt-4">
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <footer class="  relative ">
+
+
+        <div class="grid grid-cols-4  gap-20 text-xs bg-gray-100 px-28 py-10">
+            <div>
+                <p>
+                    How Daraz Transformed Online Shopping in Pakistan
+                    How Daraz Transformed Online Shopping in Pakistan
+
+                    Daraz first made waves in Pakistan’s e-commerce market after its introduction in 2012. We have since
+                    grown to become Pakistan’s largest platform for online shopping with a network spread across Asia in
+                    Pakistan, Bangladesh, Sri Lanka, Myanmar, and Daraz.com.np. Our vision was to provide a safe,
+                    efficient online marketplace platform for vendors and customers across the country to come together.
+                    We started off exclusively as an online fashion retail platform and over the years expanded to
+                    become a complete one-stop solution for all your buying needs. Daraz prides itself on not being just
+                    another ecommerce venture in Asia. We work tirelessly to make sure that we provide users with the
+                    best online online shopping experience and value for their purchases. Whether you shop online
+                    through our website or our online shopping mobile App, you can expect easy navigation, customized
+                    recommendations, and a smooth online shopping experience guaranteed.
+                    What Makes Us Different from Other Online Shopping Platforms?
+                    Select from the Largest Online Marketplace in Pakistan
+                    With over 15 million products to select from, Daraz offers its customers the most comprehensive
+                    listing of products in the country. Whether you’re looking for electronics, apparel, appliances, or
+                    groceries – there is something for everyone.
+
+                    Hassle Free Delivery
+                    Online shopping is only as good as its execution and Daraz promises hassle free delivery right from
+                    the moment you order to when your package is dropped at your door. We cater to both major and
+                    smaller cities alike, and give you the choice to track your package as it makes its way to you so
+                    you always know your order status. If you are unsatisfied with any aspect of your order, we have a
+                    simple 7-day return or exchange policy.
+
+                    Payment Options to Suit Every Style
+                    You can choose to pay through a credit/debit card, opt for cash on delivery or even go for EMI (easy
+                    monthly instalments). You can also
+                </p>
+            </div>
+            <div>
+                <p>
+                    avail exclusive offers by downloading Daraz Wallet – a closed loop digital wallet that offers you a
+                    secure, easy way to make payments. We also have easypaisa & jazzcash payment method for our
+                    customers' ease
+
+                    Shop from Verified Vendors
+                    Daraz understands that online shopping in Pakistan comes with its fair share of risks. This is why
+                    with Daraz Marketplace and Daraz Mall customers have the security of choosing from verified vendors
+                    and brands from Karachi, Lahore, Islamabad and all across Pakistan. Now you’ll never have to second
+                    guess authenticity because Daraz makes sure to do it for you!
+                    Shop Around the World with Daraz Global Collection
+                    International sellers and local convenience come together with Daraz Global collection. Get the
+                    chance to shop online from vendors around the world without leaving the Daraz website. Featuring
+                    thousands of novelty gadgets and accessories, Daraz Global Collection offers you a selection of
+                    products that you won’t find anywhere else when you’re online shopping in Pakistan.
+
+                    Avail Exclusive Discounts, Offers, and Promotions
+                    Online shopping with Daraz means you get the chance to avail exclusive online-only promotional
+                    packages as well as discount vouchers from our vendors when you shop from their pages. Our flash
+                    sales give you customized product offers all curated with the help of our advanced AI technology so
+                    you always have deals you’ll actually be interested in!
+
+                    Buy Value, not Just Goods with Daraz Care
+                    Daraz does not just cater online shopping in Pakistan but also aims to simplify the way you give
+                    back to society. With charities spanning across sectors of education, health care, environmental
+                    preservation, and shelters, you can choose to make a big difference with a few, simple clicks.
+
+                    Simplify Corporate Purchases
+                    Who says corporate purchases need to be a complicated affair? When you opt for Daraz Corporate, you
+                    get an efficient and transparent solution for your business’ bulk purchasing needs. We’re proud to
+                    be working with some of the most prestigious organizations in Pakistan across a number of different
+                    industries.
+                </p>
+            </div>
+            <div>
+                <p>
+                    Top Categories & Brands
+                    MOBILE PHONES IN PAKISTAN
+                    Apple iPhones , Honor Mobiles , Huawei Mobiles , Tecno Mobiles , Redmi Mobiles , Xiaomi Mi Mobiles ,
+                    Nokia Mobiles , OnePlus Mobiles , Oppo Mobile Phones , Realme Mobiles , Samsung Mobile Phones , Vivo
+                    Mobile Phones , Mobile Accessories , Smart Watches
+                    LATEST LAPTOPS
+                    Dell Laptops , HP Laptops , Lenovo Laptops , Mouse , Gaming Graphic Cards , lenovo ideapad 3 ,
+                    Macbook Pro 13 , Hp Probook 650 G2
+                    LED TV
+                    Changhong Led Tv , LG Led Tv , Samsung Led Tv , Sony Led Tv , TCL LED TVs
+                    HOME APPLIANCES
+                    Microwave oven , Geyser , Heater , Refrigerators , Deep Freezers , Generators , Water Dispensers ,
+                    Fans , Room Cooler , Table Fans , Wall Fans , Exhaust Fans , Pedestal Fans , Window Ac , Solar Panel
+                    , Washing Machine
+                    DSLR CAMERAS
+                    Camera Tripods , Drones , IP & CCTV Cameras , Nikon D7000 , Nikon D5600 , Canon 200D , Canon 1200D ,
+                    Fujifilm Instax Mini 11 , Canon M50
+                    HEALTH & BEAUTY
+                    sunisa foundation , Biofad , janssen facial kit , Glutathione Injection , Glutathione Cream ,
+                    Sauvage , Glutathione Tablets , Glutathione Soap , Infrared Thermometers , N95 Mask
+                    TRENDING
+                    Online Bills , Core I5 Laptop , Gtx 1060 , Samsung A32 , Samsung A51 , Samsung A52 , Samsung A71 ,
+                    Samsung A72 , Samsung M31 , Samsung S20 , Samsung S20 Ultra 5G , Samsung S21 , Samsung S21 Ultra ,
+                    Samsung Z Flip , Tecno Camon 17 , Tecno Spark 6 , Vivo V20 , Poco X3 Pro , Vivo V21 , Vivo V21E ,
+                    Vivo X70 Pro , Vivo Y12 , Vivo Y12S , Vivo Y1S , Vivo Y20 , Vivo Y51 , Vivo Y51S , Oppo F19 Pro ,
+                    Oppo Reno 6 , Xiaomi Poco F3 , Xiaomi Poco M3 , Xiaomi Poco X3 , Xiaomi Poco X3 Gt , Xiaomi Redmi 9C
+                    , Xiaomi Redmi Note 10 Pro , Sharp Aquos R2
+
+                </p>
+            </div>
+            <div>
+                <p>
+                    WOMEN'S FASHION
+                    Al-Karam Studio , Warda , Salitex , Bonanza Satrangi , Edenrobe , Firdous , Junaid Jamshed ,
+                    Limelight , Sana Safinaz , Mahru , Pushup Bra , Women Undergarments
+                    MEN'S FASHION
+                    Men's Shirts , Men's T-Shirts
+                    ONLINE GROCERY STORE
+                    Oil & Ghee , Basmati Rice , Dried Fruits , Chocolates , Mattresses
+                    ONLINE BOOK STORE
+                    English Books , Islamic Books , History Books , English Literature Books , Kids Urdu Stories , Pride
+                    & Prejudice , Harry Potter Story Books , Namal Novel , Nimra Ahmed Novels
+                    AIR CONDITIONERS
+                    Kenwood Ac , Haier Ac , Gree Ac , Dawlance Ac , Orient Ac , Ecostar Ac , Inverex Solar Ac , Pel Ac
+                    TOP MOBILE PHONES
+                    Nokia G20 , redmi 9 , realme 7 pro , realme c15 , realme c21 , vivo y20s , realme c11 Price in
+                    Pakistan , itel vision 1 pro price in pakistan , samsung galaxy a02 price in pakistan , Infinix Hot
+                    10 , Infinix Hot 8 , Infinix Hot 9 , Infinix Note 10 Pro , Infinix Note 7 , Infinix Note 8 , Infinix
+                    Zero 8 , Inifnix Smart 5 , iPhone 11 , iPhone 12 , iphone 12 Pro Max , iPhone 12 Pro , iPhone 6 ,
+                    Itel A25 , Mi 10T , Nokia 105 , Oppo A15 , Oppo A15S , Oppo A53 , Oppo A54 , Infinix Zero X Pro ,
+                    Infinix Zero X Neo , Oppo F19 , Oppo Reno 5 , Oppo Reno 5 Pro , Xiaomi Poco M3 Pro , Realme 6 Pro ,
+                    Realme 8 , Realme Narzo 30A , Samsung A02S , Samsung A11 , Samsung A12 , Samsung A31 , Vivo Y33s ,
+                    Infinix Note 11 , Tecno Spark 6 Go , Samsung A52s , Samsung Tab A7 Lite
+                    SHOP WORLDWIDE WITH LAZADA
+                    Singapore , Malaysia , Philippines , Indonesia , Vietnam , Thailand
+                    SHOP WORLDWIDE WITH MIRAVIA
+                    Spain , Portugal
+                </p>
+            </div>
+        </div>
+
+
+
+
+        <div class="px-28 py-10 flex items-center gap-24">
+
+            <div>
+                <h1 class="pb-3 text-lg">
+
+                    Daraz International
+                </h1>
+
+
+                <div class="flex gap-5">
+                    <span class="h-6 flex items-center gap-2 text-sm text-gray-400"><img src="./img/pak.png" alt=""
+                            class="h-full">Pakistan</span>
+                    <span class="h-6 flex items-center gap-2 text-sm text-gray-400"><img src="./img/bang.png" alt=""
+                            class="h-full">Bangladesh</span>
+                    <span class="h-6 flex items-center gap-2 text-sm text-gray-400"><img src="./img/sri.png" alt=""
+                            class="h-full">Srilanka</span>
+                    <span class="h-6 flex items-center gap-2 text-sm text-gray-400"><img src="./img/mya.png" alt=""
+                            class="h-full">Myanmar</span>
+                    <span class="h-6 flex items-center gap-2 text-sm text-gray-400"><img src="./img/nep.png" alt=""
+                            class="h-full">Nepal</span>
+                </div>
+            </div>
+
+
+
+
+
+            <div>
+
+                <h1 class="text-lg pb-3">Follow Us</h1>
+                <div class="flex gap-5">
+
+                    <span class=""><img src="./img/face.png" alt="" class="w-8"></span>
+                    <span class=""><img src="./img/x.png" alt="" class="w-8"></span>
+                    <span class=""><img src="./img/ins.png" alt="" class="w-8"></span>
+                    <span class=""><img src="./img/yt.png" alt="" class="w-8"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="fixed bottom-0 right-10 bg-white shadow-[0_0_6px_1px_rgba(0,0,0,0.5)] px-4 py-2"><button class="text-xl text-blue-900"><i class="fa-solid fa-message"></i> Message</button></div>
+
+    </footer>
+
+</body>
+
+</html>
